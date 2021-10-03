@@ -1,0 +1,72 @@
+2021-10-03 17:30:29,435  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:30:33,799  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:30:33,811  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:30:34,634  INFO [main] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-10-03 17:30:34,636  INFO [main] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-10-03 17:30:34,638  INFO [main] LogManager:11 - Entering user name and password for Validuser
+2021-10-03 17:30:35,647  INFO [main] LogManager:11 - On login using Uname= tomsmith and Password= SuperSecretPassword! ,it should be a Success with message You logged into a secure area!
+2021-10-03 17:30:45,760  INFO [main] LogManager:11 - Expected Message after Login= You logged into a secure area!Actual Status after Login= You logged into a secure area!
+2021-10-03 17:30:47,971  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:30:51,614  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:30:51,618  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:30:52,439  INFO [main] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-10-03 17:30:52,440  INFO [main] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-10-03 17:30:52,442  INFO [main] LogManager:11 - Entering user name and password for Invalidusername
+2021-10-03 17:30:52,641  INFO [main] LogManager:11 - On login using Uname= name2 and Password= SuperSecretPassword! ,it should be a Failure with message Your username is invalid!
+2021-10-03 17:30:53,620  INFO [main] LogManager:11 - Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+2021-10-03 17:30:55,726  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:31:03,371  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:31:03,372  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:31:04,940  INFO [main] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-10-03 17:31:04,941  INFO [main] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-10-03 17:31:04,943  INFO [main] LogManager:11 - Entering user name and password for Invalidpassword
+2021-10-03 17:31:04,980  INFO [main] LogManager:11 - On login using Uname= tomsmith and Password= Pass123# ,it should be a Failure with message Your password is invalid!
+2021-10-03 17:31:05,950  INFO [main] LogManager:11 - Expected Message after Login= Your password is invalid!Actual Status after Login= Your password is invalid!
+2021-10-03 17:31:08,042  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:31:14,670  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:31:14,671  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:31:15,711  INFO [main] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-10-03 17:31:15,712  INFO [main] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-10-03 17:31:15,713  INFO [main] LogManager:11 - Entering user name and password for InvaliduserAndPassword
+2021-10-03 17:31:15,746  INFO [main] LogManager:11 - On login using Uname= uname! and Password= pass! ,it should be a Failure with message Your username is invalid!
+2021-10-03 17:31:16,697  INFO [main] LogManager:11 - Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+2021-10-03 17:31:18,746  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:31:24,741  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:31:24,743  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:31:25,277  INFO [main] LogManager:11 - Header message on clicking Dynamic Loading Page Dynamically Loaded Page Elements
+2021-10-03 17:31:25,278  INFO [main] LogManager:11 - Dynamic Loading link is clicked from HomePage
+2021-10-03 17:31:25,279  INFO [main] LogManager:11 - Element2 is clicked and now clicking on start Button in Dynamic Loading Page
+2021-10-03 17:31:27,670  INFO [main] LogManager:11 - on clicking start, progress bar is loading as expected
+2021-10-03 17:31:30,943  INFO [main] LogManager:11 - Progress bar completed with message as Hello World!
+2021-10-03 17:31:33,096  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:31:36,950  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:31:36,951  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:31:37,510  INFO [main] LogManager:11 - Header message on clicking Multiple Window Page is Opening a new window
+2021-10-03 17:31:37,511  INFO [main] LogManager:11 - Multiple Windows link is clicked from HomePage
+2021-10-03 17:31:37,519  INFO [main] LogManager:11 - Clicking on 'Click Here' link on the Mulitple Window Page screen
+2021-10-03 17:31:37,649  INFO [main] LogManager:11 - 1 extra windows opened in addition to the parent window
+2021-10-03 17:31:37,657  INFO [main] LogManager:11 - URL of the Parent Window is http://the-internet.herokuapp.com/windows
+2021-10-03 17:31:37,918  INFO [main] LogManager:11 - URL of the newly Opened Child Window is http://the-internet.herokuapp.com/windows/new
+2021-10-03 17:31:37,981  INFO [main] LogManager:11 - Child window is closed
+2021-10-03 17:31:37,996  INFO [main] LogManager:11 - Current(Parent) Page URL is http://the-internet.herokuapp.com/windows and title of the current Page is The Internet
+2021-10-03 17:31:40,036  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:31:44,756  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:31:44,757  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:31:45,273  INFO [main] LogManager:11 - Header message on clicking Drag and Drop Page is Drag and Drop
+2021-10-03 17:31:45,274  INFO [main] LogManager:11 - Drag and Drop link is clicked from HomePage
+2021-10-03 17:31:45,346  INFO [main] LogManager:11 - Before moving Box A to Box B, Value in first Box is A & Value in sec Box is B
+2021-10-03 17:31:45,424  INFO [main] LogManager:11 - After moving Box A to Box B, Value in first Box is B & Value in sec Box is A
+2021-10-03 17:31:48,939  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:31:53,730  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:31:53,731  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:31:54,259  INFO [main] LogManager:11 - Header message on clicking Frames is By.xpath: //h3
+2021-10-03 17:31:54,259  INFO [main] LogManager:11 - Frames link is clicked from HomePage
+2021-10-03 17:31:56,295  INFO [main] LogManager:11 - The New Text Entered is Hello World
+2021-10-03 17:31:56,642  INFO [main] LogManager:11 - the entered text is in bold
+2021-10-03 17:32:00,195  INFO [main] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-10-03 17:32:04,483  INFO [main] LogManager:11 - Status message on login is Welcome to the-internet
+2021-10-03 17:32:04,484  INFO [main] LogManager:11 - Appication launched successfully
+2021-10-03 17:32:05,032  INFO [main] LogManager:11 - Header message on clicking JavaScript Alerts Page is By.xpath: //h3
+2021-10-03 17:32:05,032  INFO [main] LogManager:11 - JavaScript Alerts link is clicked from HomePage
+2021-10-03 17:32:05,131  INFO [main] LogManager:11 - Got an Alert Box on clicking on js confirm link
+2021-10-03 17:32:05,199  INFO [main] LogManager:11 - Message on cancelling the Alert= You clicked: Cancel

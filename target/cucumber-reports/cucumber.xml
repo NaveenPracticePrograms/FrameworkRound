@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="100.577">
+<testcase classname="Validate the Testcases given in the Email" name="_2" time="20.851">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "Validuser"................passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_3" time="7.819">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "Invalidusername"..........passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_4" time="12.327">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "Invalidpassword"..........passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_5" time="10.72">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "InvaliduserAndPassword"...passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_6" time="14.312">
+<system-out><![CDATA[Given User launches the application and clicks on "Dynamic Loading".........passed
+When User selects the element and clicks on start...........................passed
+Then Validate the progress bar and once completed validate the final message.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_7" time="6.971">
+<system-out><![CDATA[Given User launches the application and clicks on "Multiple Windows"........passed
+When User clicks on the link on multiple page window........................passed
+Then User should log the URL of the newly opened tab........................passed
+And User close the newly opened tab.........................................passed
+And User logs and validates the title of the current page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_8" time="8.882">
+<system-out><![CDATA[Given User launches the application and clicks on "Drag and Drop"...........passed
+When User Should drag box A and drops it on box b...........................passed
+Then Validate whether the box drop is success and take a screenshot.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_9" time="11.296">
+<system-out><![CDATA[Given User launches the application and clicks on "Frames"..................passed
+When User clicks on iFrame..................................................passed
+Then User should be able to clear the predefined text and enter some text...passed
+And User should be able to make the newly entered text in bold and take a screenshot.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases given in the Email" name="_10" time="7.008">
+<system-out><![CDATA[Given User launches the application and clicks on "JavaScript Alerts".......passed
+When User Should clicks on js confirm link..................................passed
+Then User should cancel the alert opened and validate the alert cancelled message.passed
+]]></system-out>
+</testcase>
+</testsuite>
